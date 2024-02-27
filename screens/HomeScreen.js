@@ -60,7 +60,7 @@ export default function HomeScreen ({navigation})  {
             return (
     
               <TouchableOpacity style={styles.card} 
-              onPress={() => {navigation.navigate('ArticleScreen',
+              onPress={() => {navigation.navigate('VideoPlayerScreen',
               {myParams:item,
                title:item.title}
                )}
@@ -91,7 +91,7 @@ export default function HomeScreen ({navigation})  {
             return (
     
               <TouchableOpacity style={styles.card} 
-              onPress={() => {navigation.navigate('ArticleScreen',
+              onPress={() => {navigation.navigate('VideoPlayerScreen',
               {myParams:item,
                title:item.title}
                )}
@@ -122,7 +122,7 @@ export default function HomeScreen ({navigation})  {
             return (
     
               <TouchableOpacity style={styles.card} 
-              onPress={() => {navigation.navigate('ArticleScreen',
+              onPress={() => {navigation.navigate('VideoPlayerScreen',
               {myParams:item,
                title:item.title}
                )}
