@@ -96,7 +96,7 @@ export default function HomeScreen ({navigation})  {
                title:item.title}
                )}
              }
-              >
+                >
              <Image style={styles.image} source={{ uri: item.icon }} />
              <View style={styles.cardContent}>
                <Text style={styles.name}>{item.title}</Text>
