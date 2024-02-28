@@ -2,7 +2,6 @@ import * as React from 'react';
 import {View, Text, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import Video from 'react-native-video';
-
 export default function VideoPlayerScreen({navigation, route}) {
    /* Get the param */
    const { myParams } = route.params;
